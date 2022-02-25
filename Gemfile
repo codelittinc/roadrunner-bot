@@ -51,6 +51,8 @@ gem 'pg_search'
 # gem "image_processing", "~> 1.2"
 
 gem 'rails_admin', ['>= 3.0.0.rc2', '< 4']
+gem 'state_machines'
+gem 'state_machines-activerecord'
 
 group :development, :test do
   gem 'dotenv-rails', groups: %i[development test]
